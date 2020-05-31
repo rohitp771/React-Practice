@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.static {
+  position: static;
+  width: 500px;
+  height: 200px;
+  background : yellow;
+  border: 3px solid #73AD21;
+  margin-top: 5px;
+} 
+
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top : 0;
+  right : 0;
+  border: 3px solid #73AD21;
+}
+
+div.fixed {
+  position: fixed;
+  bottom : 0;
+  right :0;
+  border: 3px solid #73AD21;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Element Positioning</h2>
+
+<div class="relative">Parent With Relative Position Here
+  <div class="absolute">Top-right-abs-child</div>
+</div>
+
+<div class="fixed">Fixed Element</div>
+
+<div class="static">Static Element
+	 <div class="absolute">absolute does not work with static parent</div>
+</div>
+
+</body>
+</html>
