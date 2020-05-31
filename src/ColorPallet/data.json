@@ -1,0 +1,16 @@
+[
+    {
+        "color" : "red",
+        "desc"  : "red color"
+    },
+    {
+        "color" : "green",
+        "desc"  : "green color"
+    }
+    ,
+    {
+        "color" : "blue",
+        "desc"  : "blue color"
+    }
+
+]

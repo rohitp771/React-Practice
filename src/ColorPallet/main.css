@@ -1,0 +1,35 @@
+body {margin : 15px;}
+
+.pallet, 
+.pallet * {
+    box-sizing: border-box;
+}
+.pallet{
+    font-family: sans-serif;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    
+}
+
+.colorBoxCls{
+    height :150px;
+    background : red;
+    position: relative;
+}
+.descCls{
+    padding: 10px;
+    position: absolute;
+    left : 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+    color : white;
+}
+.colorBoxInputCls{
+    width: 100%;
+    padding: 10px;
+    border : 1px solid grey;
+    outline : none;
+    border-top: none;
+}
